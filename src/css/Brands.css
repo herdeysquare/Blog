@@ -1,0 +1,42 @@
+.container{
+    display: flex;
+    height:15vh;
+    justify-content: space-evenly;
+}
+
+.click{
+    display: flex;
+    justify-content: center;
+    padding:10px;
+    color:rgb(235, 130, 130);
+    animation: blink 2s ease-out;
+    font-size: larger;
+}
+
+@keyframes blink {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+      }
+      100% {
+        opacity: 1;
+        transform: translateY(0);
+      }
+}
+    #alphabets {
+    display: inline-block;
+    margin: 5px;
+    padding: 10px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    color: #333;
+  }
+  
+  #alphabets:hover {
+    background-color: #ddd;
+  }
+  

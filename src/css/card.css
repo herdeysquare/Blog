@@ -1,0 +1,42 @@
+.card{
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px #44435f;
+    text-align: center;
+    width:20vw;
+    background-color:#afbbee;
+    margin:10px;
+}
+.user{
+    width:15vw;
+    height:40vh;
+    padding:10px;
+    border-radius: 20px;
+}
+
+
+
+/* mobile */
+@media (width<=800px){
+*{
+    margin:0;
+    padding:0;
+    align-items: center;
+}
+.card{
+    width:40vw;
+    align-items: center;
+    justify-content: center;
+    /* flex-wrap: wrap; */
+    height:35vh
+}
+.user{
+    width:30vw;
+    height:25vh;
+    padding:10px;
+   
+}
+
+
+
+
+}
