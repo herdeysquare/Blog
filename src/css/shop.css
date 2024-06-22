@@ -1,0 +1,28 @@
+.shop-container {
+  display: flex;
+  padding-inline: 5vw;
+}
+.left {
+  flex: 1.5;
+  display: flex;
+  align-items: center;
+  margin: 10px;
+  
+}
+#glow-img{
+    width:40vw
+}
+.right{
+    display: flex;
+    flex:2;
+     justify-content: center;
+  
+} 
+#category-list{
+    display: flex;
+    align-items: left;
+    flex-direction: column;
+    justify-content: center;
+    margin: 10px;
+    flex: 2
+}

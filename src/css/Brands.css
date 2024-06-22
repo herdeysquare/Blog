@@ -1,15 +1,32 @@
+ .brand-details{
+  display: flex;
+  justify-content: center;
+  /* flex-wrap: wrap; */
+} 
+/* .sh-details{
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  margin-inline:20vw;
+} */
 .container{
     display: flex;
     height:15vh;
     justify-content: space-evenly;
+    flex-wrap: wrap;
 }
-
+#brand-page{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 .click{
     display: flex;
     justify-content: center;
     padding:10px;
-    color:rgb(235, 130, 130);
-    animation: blink 2s ease-out;
+    color:rgb(74, 26, 26);
+    animation: blink 4s ease-out ;
     font-size: larger;
 }
 
@@ -39,4 +56,7 @@
   #alphabets:hover {
     background-color: #ddd;
   }
-  
+  #brand-card{
+    display: flex;
+    flex-direction: row;
+  } 

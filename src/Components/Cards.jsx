@@ -3,7 +3,7 @@ import React from 'react'
 
 import "../css/card.css"
 
-const Cards = ({ img, text, title }) => {
+const Cards = ({ img, text, title, alt, id }) => {
     return (<>
         <div className='card'>
             <img src={img} alt={title} className='user' />

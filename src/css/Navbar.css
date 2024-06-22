@@ -3,12 +3,14 @@
   padding: 0;
 }
 .navbar {
-  height: 20vh;
+  height: 10vh;
   background-color: #2e16b975;
   display: flex;
   justify-content: space-between;
   padding-inline: 2vw;
-  color:white
+  color: white;
+  flex-wrap: wrap;
+
 }
 .list {
   list-style: none;
@@ -16,12 +18,20 @@
   justify-content: center;
   align-items: center;
   gap: 20px;
-  cursor:pointer
+  cursor: pointer;
 }
-.beau {
+li:hover{
+  color:rgb(235, 130, 130);
+}
+li:active{
+ color: rgb(127, 92, 92);
+}
+
+.logo {
   display: flex;
   justify-content: center;
   align-items: center;
+ height:10vh
 }
 .icons {
   width: 2vw;
@@ -33,33 +43,27 @@
   gap: 10px;
 }
 
-
 /* mobile */
-@media (width<=800px){
-.list{
-  display:none;
+@media (width<=800px) {
+  .list {
+    display: none;
+  }
+  .icon {
+    justify-content: end;
+    padding: 10px;
+  }
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-inline: 4vw;
+  }
+  .beau {
+    width: 18vw;
+  }
 
-}
-.icon{
-  justify-content: end;
-  padding: 10px;
-}
-.navbar{
-display: flex;
-justify-content: space-between;
-align-items: center;
-padding-inline: 4vw;
-
-}
-.beau{
- 
-  width:18vw
-}
-
-.icons{
-  width:4vw;
-  height:4vw
-}
-
-
+  .icons {
+    width: 4vw;
+    height: 4vw;
+  }
 }

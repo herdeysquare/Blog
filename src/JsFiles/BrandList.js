@@ -17,31 +17,37 @@ import osea from '../Images/osea.jpeg'
 import ponds from '../Images/ponds.jpeg'
 import vitaminc from '../Images/vitaminc.jpeg'
 import zaron from '../Images/zaron.jpeg'
+import Bioglow from '../Images/bioglow.jpg'
+import bronte from '../Images/bronte.jpg'
+import gison from '../Images/gison.jpg'
+import happy from '../Images/happypills.jpg'
+import hemp from '../Images/Hempseed.jpg'
+import cosmetic from '../Images/cosmetic.png'
 
 export const BrandList = [
   {
-    id: 1, name: "A", list: "Aveeno", image:Aveeno, 
+    id: 1, name: "A", list: "1. Aveeno", image:Aveeno, 
   },
   {
-    id: 2, name: "B", list: "1.B-Labs 2.Bioderma 3.Balance" 
+    id: 2, name: "B", list: "1. Bioglow 2. Bronte", image:Bioglow, img:bronte
   },
 {
-    id: 3, name: "C", list: " 1. Clinique  2.Cocokind", image:clinique, img: cocokind, 
+    id: 3, name: "C", list: " 1. Clinique  2. Cocokind", image:clinique, img: cocokind, 
 },
 {
-    id: 4, name: "D", list: "1. Dr Teal 2.Derma Protect", image:drteal, img:derma
+    id: 4, name: "D", list: "1. Dr Teal 2. Derma Protect", image:drteal, img:derma
 },
 {
 id: 5, name: "E", list: "1. Eucerin 2. Esccenza", image:eucerin, img:esccenza
 },
 {
-id: 6, name: "F", list: "1.Fair and White 2. Fresh", image:fair, img:fresh
+id: 6, name: "F", list: "1. Fair and White 2. Fresh", image:fair, img:fresh
 },
 {
-  id: 7, name: "G", list: "", 
+  id: 7, name: "G", list: "1. Gison", image:gison
 },
 {
-  id: 8, name: "H", list: "",
+  id: 8, name: "H", list: "1. Happy Pills 2. Hemp Seeds", image:happy, img:hemp
 },
 {
   id: 9, name: "I", list: "",
@@ -53,10 +59,10 @@ id: 6, name: "F", list: "1.Fair and White 2. Fresh", image:fair, img:fresh
   id: 11, name: "K", list: "1. Karis", image:karis
 },
 {
-  id: 12, name: "L", list: "1. Lavera", image:lavera
+  id: 12, name: "L", list: "1. Lavera 2. Liqueur Pskyn", image:lavera, img:cosmetic
 },
 {
-  id: 13, name: "M", list: "1. medix", image:medix
+  id: 13, name: "M", list: "1. Medix", image:medix
 },
 {
   id: 14, name: "N", list: "1. Nivea 2. Neutrogena", image: nivea, img:neutrogena

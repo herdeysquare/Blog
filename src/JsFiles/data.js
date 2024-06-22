@@ -1,65 +1,69 @@
 import cosmetic from '../Images/cosmetic.png'
 import cosmetic1 from '../Images/cosmetic1.jpg'
-import cosmetic2 from '../Images/cosmetic 2.jpg'
-import cosmetic3 from '../Images/cosmetic3.jpeg'
-import cosmetic4 from '../Images/cosmetic4.jpg'
-import cosmetic5 from '../Images/cosmetic5.jpeg'
+import soap from '../Images/soap.jpg'
+import orange from '../Images/orange.jpg'
+import hair from '../Images/hair.jpg'
+import nail from '../Images/nail.jpg'
+import gison from '../Images/gison.jpg'
+import evidence from '../Images/evidence.jpg'
+import tenzo from '../Images/tenzo.jpg'
+import sanitary from '../Images/sanitary.jpg'
 
 export const data = [
     {
         id:1,
-        img:cosmetic,
+        img:soap,
         title:"Bath and Body",
-        text:"Click to View",
+        text:"",
         link:"/ProductInfo"
     },
     {
         id:2,
-        img:cosmetic1,
+        img:orange,
         title:"Face",
-        text:"Click to View",
+        // text:"Click to View",
         link:"/ProductInfo"
     },
     {
         id:3,
-        img:cosmetic2,
+        img:hair,
         title:"Hair Care",
-        text:"Click to View",
+        // text:"Click to View",
         link:"/ProductInfo"
     },
     {
         id:4,
-        img:cosmetic3,
+        img:nail,
         title:"Nail Care",
-        text:"Click to View",
+        // text:"Click to View",
         link:"/ProductInfo"
     },
     {
         id:5,
-        img:cosmetic4,
+        img:sanitary,
         title:"Sanitary",
-        text:"Click to View",
+        // text:"Click to View",
         link:"/ProductInfo"
     },
     {
         id:6,
-        img:cosmetic5,
+        img:tenzo,
         title:"Supplement",
-        text:"Click to View",
+        // text:"Click to View",
         link:"/ProductInfo"
     },
     {
         id:7,
-        img:cosmetic,
-        title:"Bath and Body",
-        text:"Click to View",
+        img:evidence,
+        title:"Perfumes",
+        // text:"Click to View",
         link:"/ProductInfo"
     },
     {
         id:8,
-        img:cosmetic2,
+        img:gison,
         title:"Others",
-        text:"Click to View",
+        // text:"Click to View",
         link:"/ProductInfo"
     },
 ]

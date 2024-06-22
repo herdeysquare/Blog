@@ -1,0 +1,12 @@
+.h1{
+    margin:10px;
+    display: flex;
+    justify-content: start;
+    color: red;
+}
+#bg{
+    background-image: url('../Images/glow.jpg');
+    background-position: center;
+    background-size: cover;
+    height:100%
+}
