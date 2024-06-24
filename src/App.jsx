@@ -12,6 +12,7 @@ import ContactUs from "./Pages/ContactUs";
 import Refund from "./Pages/Refund";
 import Terms from "./Pages/Terms";
 import Privacy from "./Pages/Privacy";
+import Trolley from "./NavPages/Trolley";
 
 
 const App = () => {
@@ -24,6 +25,7 @@ const App = () => {
         <Route path="/Products" element={<Products />} />
         <Route path="/Shop" element={<Shop />} />
         <Route path="/ProductInfo/:id" element={<ProductInfo />} />
+        {/* <Route path="/Products/:category" element={<Products />} /> */}
         <Route path="/Brands/:id" element={<Brands />} />
         <Route path="/AboutUs" element={<AboutUs />} />
         <Route path="/ContactUs" element={<ContactUs />} />
@@ -31,6 +33,7 @@ const App = () => {
         <Route path="/Refund" element={<Refund />} />
         <Route path="/Terms" element={<Terms />} />
         <Route path="/Privacy" element={<Privacy />} />
+        <Route path="/Trolley" element={<Trolley />} />
       </Routes>
       <Footer />
      

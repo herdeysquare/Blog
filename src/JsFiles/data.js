@@ -1,5 +1,3 @@
-import cosmetic from '../Images/cosmetic.png'
-import cosmetic1 from '../Images/cosmetic1.jpg'
 import soap from '../Images/soap.jpg'
 import orange from '../Images/orange.jpg'
 import hair from '../Images/hair.jpg'

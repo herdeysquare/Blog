@@ -1,108 +1,100 @@
-import Aveeno from "../Images/Aveeno.webp";
-import clinique from "../Images/clinique.jpeg";
-import cosmetic from "../Images/cosmetic.png";
-import cocoa from "../Images/cocoa.jpeg";
-import cocokind from "../Images/cocokind.jpeg";
-import Drteal from "../Images/Drteal.jpeg";
-import e45 from "../Images/e45.jpeg";
-import cosmetic4 from "../Images/cosmetic4.jpg";
-import esccenza from "../Images/esccenza.jpeg";
-import exonerating from "../Images/exonerating.jpg";
-import karis from "../Images/karis.jpeg";
-import fair from "../Images/fairandwhite.jpeg";
-import fresh from "../Images/fresh.jpeg";
-import lavera from "../Images/lavera.jpeg";
-import medix from "../Images/medix.jpeg";
+import bioglow from '../Images/bioglow.jpg'
+import cosmetic1 from "../Images/cosmetic1.jpg";
+import bronte from "../Images/bronte.jpg";
+import cosmetic2 from "../Images/cosmetic 2.jpg";
+import cosmetic3 from "../Images/cosmetic3.jpeg";
+import cosmetic5 from "../Images/cosmetic5.jpeg";
+import country from "../Images/country.jpg";
+import curology from "../Images/curology.jpg";
+import mask from "../Images/mask.jpg";
 
-export const info = [
-  {
+export const Face=[{
     id: 1,
-    Category: "Bath and Body",
-    name: "Aveeno",
+    Category: "Face",
+    name: "Bioglow",
     description: "Clinically proven 24 hour moisturization.",
     description1: "Daily lotion nourishes dry skin with moisture.",
     description2: "Fragrance-free, non-greasy & non-comedogenic",
-    image: Aveeno,
-    price: "N3,000",
-  },
-  {
+    image: bioglow,
+    price: 'N3,000'
+},
+{
     id: 2,
-    Category: "Bath and Body",
-    name: "Clinique",
+    Category: "Face",
+    name:"Tretinoin",
     description: "Clinically proven 24 hour moisturization.",
     description1: "Daily lotion nourishes dry skin with moisture.",
     description2: "Fragrance-free, non-greasy & non-comedogenic",
-    image: clinique,
-    price: "N3,000",
-  },
-  {
+    image: cosmetic1,
+    price: 'N3,000'
+},
+{
     id: 3,
-    Category: "Bath and Body",
-    name: "Liqueur Pskny",
+    Category: "Face",
+    name:"Bronte",
     description: "Clinically proven 24 hour moisturization.",
     description1: "Daily lotion nourishes dry skin with moisture.",
     description2: "Fragrance-free, non-greasy & non-comedogenic",
-    image: cosmetic,
-    price: "N3,000",
-  },
-  {
+    image: bronte,
+    price: 'N3,000'
+},
+{
     id: 4,
-    Category: "Bath and Body",
-    name: "Palmer's Shea Butter Formula",
+    Category: "Face",
+    name:"Acwell Cleansing Toner",
     description: "Clinically proven 24 hour moisturization.",
     description1: "Daily lotion nourishes dry skin with moisture.",
     description2: "Fragrance-free, non-greasy & non-comedogenic",
-    image: cocoa,
-    price: "N3,000",
-  },
-  {
+    image: cosmetic2,
+    price: 'N3,000'
+},
+{
     id: 5,
-    Category: "Bath and Body",
-    name: "Cocokind",
+    Category: "Face",
+    name:"Balance Active Formular",
     description: "Clinically proven 24 hour moisturization.",
     description1: "Daily lotion nourishes dry skin with moisture.",
     description2: "Fragrance-free, non-greasy & non-comedogenic",
-    image: cocokind,
-    price: "N3,000",
-  },
-  {
+    image: cosmetic3,
+    price: 'N3,000'
+},{
     id: 6,
     Category: "Face",
-    name: "Bioderma",
+    name:"Bioderma Sebium",
     description: "Clinically proven 24 hour moisturization.",
     description1: "Daily lotion nourishes dry skin with moisture.",
     description2: "Fragrance-free, non-greasy & non-comedogenic",
-    image: cosmetic4,
-    price: "N3,000",
-  },
-  {
+    image: cosmetic5,
+    price: 'N3,000'
+},
+{
     id: 7,
     Category: "Face",
-    name: "Dr.Teal",
+    name:"CountryBoys CBD Oil",
     description: "Clinically proven 24 hour moisturization.",
     description1: "Daily lotion nourishes dry skin with moisture.",
     description2: "Fragrance-free, non-greasy & non-comedogenic",
-    image: Drteal,
-    price: "N3,000",
-  },
-  {
+    image: country,
+    price: 'N3,000'
+},
+{
     id: 8,
     Category: "Face",
-    name: "E45",
+    name:"Curology",
     description: "Clinically proven 24 hour moisturization.",
     description1: "Daily lotion nourishes dry skin with moisture.",
     description2: "Fragrance-free, non-greasy & non-comedogenic",
-    image: e45,
-    price: "N3,000",
-  },
-  {
+    image: curology,
+    price: 'N3,000'
+},
+{
     id: 9,
     Category: "Face",
-    name: "Escenza",
+    name:"Mask",
     description: "Clinically proven 24 hour moisturization.",
     description1: "Daily lotion nourishes dry skin with moisture.",
     description2: "Fragrance-free, non-greasy & non-comedogenic",
-    image: esccenza,
-    price: "N3,000",
-  },
-];
+    image: mask,
+    price: 'N3,000'
+}
+]

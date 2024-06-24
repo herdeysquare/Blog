@@ -19,7 +19,7 @@ const Homepage = () => {
     </div>
     <div className="card-container" style={{ flexWrap: "wrap" }} id='body'>
       {data.map((item) => (<div key={item.id}>
-        <Link to={`/Products/${item.id}`}>
+        <Link to={`/Products`}>
           <Cards img={item.img} title={item.title} text={item.text} />
         </Link>
        

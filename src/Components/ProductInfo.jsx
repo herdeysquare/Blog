@@ -2,7 +2,7 @@ import React, { useEffect } from 'react'
 import { info } from '../JsFiles/info'
 import { useNavigate, useParams } from 'react-router-dom'
 import { useState } from 'react';
-import Button from './Button'
+// import Button from './Button'
 
 const ProductInfo = () => {
     const navigate = useNavigate();

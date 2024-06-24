@@ -28,6 +28,10 @@ const Navbar = () => {
   const toggle = () => {
     navigate("/DotDrawer");
   };
+const toggleT =()=>{
+navigate("/Trolley")
+}
+
 
   return (
     <>
@@ -49,7 +53,7 @@ const Navbar = () => {
         <div className="icon">
           <img src={Search} alt="search" className="icons" />
           <img src={user} alt="profile-image" className="icons" />
-          <img src={trolley} alt="trolley" className="icons" />
+          <img src={trolley} alt="trolley" className="icons" onClick={toggleT}/>
           <DotDrawer className="icons"/>
         </div>
       </div>
