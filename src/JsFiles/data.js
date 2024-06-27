@@ -6,63 +6,63 @@ import gison from '../Images/gison.jpg'
 import evidence from '../Images/evidence.jpg'
 import tenzo from '../Images/tenzo.jpg'
 import sanitary from '../Images/sanitary.jpg'
+import { Category } from '@mui/icons-material'
 
 export const data = [
     {
         id:1,
         img:soap,
-        title:"Bath and Body",
+        Category:"Bath and Body",
         text:"",
-        link:"/ProductInfo"
+        link: "/Products",
     },
     {
         id:2,
         img:orange,
-        title:"Face",
+        Category:"Face",
         // text:"Click to View",
-        link:"/ProductInfo"
+       link:"/Products"
     },
     {
         id:3,
         img:hair,
-        title:"Hair Care",
-        // text:"Click to View",
-        link:"/ProductInfo"
+        Category:"Hair Care",
+        link: "/Products",
     },
     {
         id:4,
         img:nail,
-        title:"Nail Care",
+        Category:"Nail Care",
         // text:"Click to View",
-        link:"/ProductInfo"
+        link: "/Products",
     },
     {
         id:5,
         img:sanitary,
-        title:"Sanitary",
+        Category:"Sanitary",
         // text:"Click to View",
-        link:"/ProductInfo"
+        link: "/Products",
     },
     {
         id:6,
         img:tenzo,
-        title:"Supplement",
+        Category:"Supplement",
         // text:"Click to View",
-        link:"/ProductInfo"
+        link: "/Products",
     },
     {
         id:7,
         img:evidence,
-        title:"Perfumes",
+        Category:"Perfumes",
         // text:"Click to View",
-        link:"/ProductInfo"
+        link: "/Products",
     },
     {
         id:8,
         img:gison,
-        title:"Others",
+        Category:"Others",
         // text:"Click to View",
-        link:"/ProductInfo"
+        link: "/Products",
     },
 ]
  

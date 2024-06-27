@@ -1,8 +1,8 @@
-/* #board {
+ #board {
   background-color: #d6dadf;
   height: 75vh;
   overflow: hidden;
-} */
+} 
 .animate {
   display: flex;
   justify-content: center;

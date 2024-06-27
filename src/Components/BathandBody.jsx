@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import Cards from './Cards'
 import { info } from '../JsFiles/info'
 import { useNavigate } from 'react-router-dom'
+import AmountQuantity from '../Reducers/AmountQuantity'
 
 const BathandBody = () => {
 const navigate = useNavigate()
@@ -34,6 +35,7 @@ const toggle = ()=>{
             <button className='btn' onClick={btn1}>+</button>
             <p>Purchase</p>
             <button id='shop-button' onClick={toggle}> Add To Cart</button>
+            {/* <AmountQuantity/> */}
         </div>
       ))}
     </div>
@@ -41,4 +43,4 @@ const toggle = ()=>{
   )
 }
 
-export default BathandBody
+export default BathandBody;
